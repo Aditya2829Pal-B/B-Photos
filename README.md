@@ -1,20 +1,59 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# 📸 EditX – B‑Photos
+*A photo enhancing web app that revives old and blurry photos.*
 
-# Run and deploy your AI Studio app
+---
 
-This contains everything you need to run your app locally.
+## ✨ Features
+- 🖼️ **AI‑powered enhancement** – restores clarity in old or low‑quality images  
+- 🔍 **Interactive comparison view** – see before & after side by side  
+- ⚡ **Fast & lightweight** – built with modern web technologies  
+- 🔑 **Secure API integration** – powered by Gemini Photo Enhancer  
 
-View your app in AI Studio: https://ai.studio/apps/a040e6ca-db55-4840-85ce-6a6c1ca9841f
+---
 
-## Run Locally
+## 🚀 Getting Started
 
-**Prerequisites:**  Node.js
+### Prerequisites
+- [Node.js](https://nodejs.org/) (v16+ recommended)
+- Gemini API key
+
+### Installation
+```bash
+# Clone the repository
+git clone https://github.com/Aditya2829Pal-B/EditX.git
+cd EditX
+
+# Install dependencies
+npm install
+
+# Add your Gemini API key
+echo "GEMINI_API_KEY=your_api_key_here" > .env.local
+
+# Run the app
+npm run dev
 
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+🖥️ Tech Stack
+Frontend: React + TypeScript
+
+Bundler: Vite
+
+Styling: CSS/HTML
+
+AI Integration: Gemini Photo Enhancer
+
+├── components/        # UI components
+├── services/          # API integration
+├── utils/             # Helper functions
+├── App.tsx            # Main app entry
+├── index.html         # Root HTML
+└── vite.config.ts     # Build configuration
+
+📸 Demo
+👉 Try it out in AI Studio
+
+📜 License
+This project is licensed under the MIT License.
+
+Developed by Aditya Pal  
+GitHub: Aditya2829Pal-B (github.com in Bing)
